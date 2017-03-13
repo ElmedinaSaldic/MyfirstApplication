@@ -25,7 +25,7 @@ android:layout_height="fill_parent"
             android:layout_height="match_parent" >
 
             <EditText
-                android:id="@+id/editText2"
+                android:id="@+id/Divident"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -33,7 +33,7 @@ android:layout_height="fill_parent"
                 android:text="Divident" />
 
             <EditText
-                android:id="@+id/editText4"
+                android:id="@+id/DividentZahl"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -45,7 +45,7 @@ android:layout_height="fill_parent"
             android:layout_height="match_parent" >
 
             <EditText
-                android:id="@+id/editText3"
+                android:id="@+id/Divisor"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -53,7 +53,7 @@ android:layout_height="fill_parent"
                 android:text="Divisor" />
 
             <EditText
-                android:id="@+id/editText5"
+                android:id="@+id/DivisorZahl"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -68,7 +68,9 @@ android:layout_height="fill_parent"
                 android:id="@+id/button2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Button" />
+                android:text="Dividieren"
+                android:onClick = "MyDividieren"
+                />
 
             <TableRow
                 android:layout_width="match_parent"
@@ -85,7 +87,7 @@ android:layout_height="fill_parent"
             android:layout_height="match_parent" >
 
             <EditText
-                android:id="@+id/editText6"
+                android:id="@+id/Ergebnis"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
