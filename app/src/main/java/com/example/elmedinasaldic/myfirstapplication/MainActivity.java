@@ -24,12 +24,12 @@ public class MainActivity extends AppCompatActivity {
 
     public void MyDividieren (View v){ //OnClick(=MyDividieren) zeigen was passiert wernn man auf den Button klickt
 
-        EditText Divident = (EditText)findViewById(R.id.Divident); //die richtige ID holen (von activity_main
-        EditText Divisor = (EditText)findViewById(R.id.Divisor);  //also Objekt wird angesprochen
+        EditText DividentZahl = (EditText)findViewById(R.id.DividentZahl); //die richtige ID holen (von activity_main
+        EditText DivisorZahl = (EditText)findViewById(R.id.DivisorZahl);  //also Objekt wird angesprochen
         EditText Ergebnis = (EditText)findViewById(R.id.Ergebnis);
 
-        Double zahl1 = Double.parseDouble(Divident.getText().toString()); //get Text und in Double umwandeln
-        Double zahl2 = Double.parseDouble(Divisor.getText().toString());
+        Double zahl1 = Double.parseDouble(DividentZahl.getText().toString()); //get Text und in Double umwandeln
+        Double zahl2 = Double.parseDouble(DivisorZahl.getText().toString());
 
         Ergebnis.setText(String.valueOf(zahl1/zahl2)); //Die eigentliche Funktion vom Taschenrechner
     }
