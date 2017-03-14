@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
         EditText DivisorZahl = (EditText)findViewById(R.id.DivisorZahl);  //also Objekt wird angesprochen
         EditText Ergebnis = (EditText)findViewById(R.id.Ergebnis);
 
+
         Double zahl1 = Double.parseDouble(DividentZahl.getText().toString()); //get Text und in Double umwandeln
         Double zahl2 = Double.parseDouble(DivisorZahl.getText().toString());
 

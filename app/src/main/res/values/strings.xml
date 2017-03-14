@@ -1,6 +1,14 @@
 <resources>
     <string name="app_name">Taschenrechner Elmedina</string>
 
+    <string name="DividentZahl">DividentZahl</string>
+    <string name="DivisorZahl">DivisorZahl</string>
+    <string name="Ergebnis">Das Ergebnis lautet:</string>
+    <string name="Dividieren">Dividieren!</string>
+    <string name="D.Rechner">Divisionsrechner</string>
+    <string name="zahl1" />
+    <string name="zahl2" />
+
 
 
 </resources>

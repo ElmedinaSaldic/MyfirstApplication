@@ -14,7 +14,7 @@ android:layout_height="fill_parent"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Divisionsrechner" />
+        android:text="@string/D.Rechner" />
 
     <TableLayout
         android:layout_width="match_parent"
@@ -30,7 +30,7 @@ android:layout_height="fill_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:text="Divident" />
+                android:text="@string/Divident" />
 
             <EditText
                 android:id="@+id/DividentZahl"
@@ -50,14 +50,15 @@ android:layout_height="fill_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:text="Divisor" />
+                android:text="@string/Divisor" />
 
             <EditText
                 android:id="@+id/DivisorZahl"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:inputType="numberDecimal" />
+                android:inputType="numberDecimal"
+                android:text="@string/zahl2" />
         </TableRow>
 
         <TableRow
@@ -68,9 +69,8 @@ android:layout_height="fill_parent"
                 android:id="@+id/button2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Dividieren"
-                android:onClick = "MyDividieren"
-                />
+                android:onClick="MyDividieren"
+                android:text="@string/Dividieren" />
 
             <TableRow
                 android:layout_width="match_parent"
@@ -92,7 +92,7 @@ android:layout_height="fill_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:text="Das Ergebnis lautet:" />
+                android:text="@string/Ergebnis" />
 
             <EditText
                 android:id="@+id/Ergebnis"
