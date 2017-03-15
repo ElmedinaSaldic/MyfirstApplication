@@ -8,11 +8,13 @@ android:layout_height="fill_parent"
     >
 
 
-    <EditText
+    <TextView
         android:id="@+id/editText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:textSize="25sp"
+        android:textColor="#ffb6c1"
         android:inputType="textPersonName"
         android:text="@string/D.Rechner" />
 
@@ -24,11 +26,12 @@ android:layout_height="fill_parent"
             android:layout_width="match_parent"
             android:layout_height="match_parent" >
 
-            <EditText
+            <TextView
                 android:id="@+id/Divident"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
+                android:textSize="15sp"
                 android:inputType="textPersonName"
                 android:text="@string/Divident" />
 
@@ -44,11 +47,12 @@ android:layout_height="fill_parent"
             android:layout_width="match_parent"
             android:layout_height="match_parent" >
 
-            <EditText
+            <TextView
                 android:id="@+id/Divisor"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
+                android:textSize="15sp"
                 android:inputType="textPersonName"
                 android:text="@string/Divisor" />
 
@@ -86,11 +90,12 @@ android:layout_height="fill_parent"
             android:layout_width="match_parent"
             android:layout_height="match_parent" >
 
-            <EditText
+            <TextView
                 android:id="@+id/editText2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
+                android:textSize="15sp"
                 android:inputType="textPersonName"
                 android:text="@string/Ergebnis" />
 

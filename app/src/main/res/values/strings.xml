@@ -6,6 +6,8 @@
     <string name="Ergebnis">Das Ergebnis lautet:</string>
     <string name="Dividieren">Dividieren!</string>
     <string name="D.Rechner">Divisionsrechner</string>
+    <string name="Divident">Divident</string>
+    <string name="Divisor">Divisor</string>
     <string name="zahl1" />
     <string name="zahl2" />
 
